@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Let's Create</title>
+</head>
+
+<body>
+    <h1>Registration-Form For MSU</h1>
+    <p>
+        The newly established Maa Shakumbhari University is still in its incipient stage but it aspires to emergesoon as
+        an enormous centre of higher education. It is speedily heading towards ushering in the dawn of knowledge and new
+        awakening in the adjoining areas of Saharanpur. It is expeditiously striding forward to its over-all
+        development. The recently started University is leaving no stone unturned in developing as a fountain of
+        comprehensive learning keeping in mind the needs of the students of this rapidly developing nation vis-a-vis the
+        process of globalization.
+    </p>
+    <h2>Form</h2>
+    <form action="process.php" method="post">
+    <div>
+        <label for="username">Enter Your Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter Your Username" required>
+    </div>
+    <br>
+    <div>
+        <label for="roll">Roll No.</label>
+        <input type="text" id="roll" name="rollno" placeholder="Roll No.">
+    </div>
+    <br>
+    <div>
+        <label for="age">Age</label>
+        <input type="text" id="age" name="age" placeholder="Age">
+    </div>
+    <br>
+    <div>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+
+    </div>
+    <br>
+    <div>
+        <label for="course">Select Course</label>
+        <select name="course" id="course" >
+            <option value="bca">NEW BCA</option>
+            <option value="ba">BA</option>
+            <option value="b.com">B.COM</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="chkb">I Accept Your Policies</label>
+        <input type="checkbox" id="chkb" name="chkb">
+    </div>
+    <br>
+    <div>
+        <label for="submit"></label>
+        <input type="submit" id="submit">
+        <label for="reset"></label>
+        <input type="reset" id="reset">
+
+    </div>
+    <br>
+    <div>
+        <label for="comment">Enter Your Comment(Optional)</label>
+        <br>
+        <textarea name="comment" id="comment" rows="5" cols="50"></textarea>
+        
+
+    </div>
+</form>
+</body>
+
+</html>
